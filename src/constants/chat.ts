@@ -33,6 +33,7 @@ export const modelOptions: ModelOptions[] = [
   'llama-3.1-sonar-huge-128k-online',
   'deepseek-chat',
   'deepseek-coder',
+  'deepseek-reasoner',
   // 'gpt-3.5-turbo-0301',
   // 'gpt-4-0314',
   // 'gpt-4-32k-0314',
