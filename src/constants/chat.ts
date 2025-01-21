@@ -62,8 +62,9 @@ export const modelMaxToken: ModelMaxToken = {
   'gpt-4o': 128000,
   'gpt-4o-2024-05-13': 128000,
   'llama-3.1-sonar-huge-128k-online': 128000,
-  'deepseek-chat': 128000,
-  'deepseek-coder': 128000,
+  'deepseek-chat': 64000,
+  'deepseek-coder': 64000,
+  'deepseek-reasoner': 64000,
 };
 
 export const modelCost = {
@@ -152,8 +153,12 @@ export const modelCost = {
     completion: { price: 0.015, unit: 1000 },
   },
   'deepseek-chat': {
-    prompt: { price: 0.005, unit: 1000 },
-    completion: { price: 0.015, unit: 1000 },
+    prompt: { price: 0.00027, unit: 1000 },
+    completion: { price: 0.0028, unit: 1000 },
+  },
+  'deepseek-reasoner': {
+    prompt: { price: 0.00055, unit: 1000 },
+    completion: { price: 0.0022, unit: 1000 },
   },
 };
 
